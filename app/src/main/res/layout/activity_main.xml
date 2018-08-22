@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:textColor="#666"
+        android:textSize="12sp"
+        android:id="@+id/app_version_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_above="@id/app_version_text"
+        android:layout_marginBottom="15dp"
+        android:textColor="#666"
+        android:textSize="12sp"
+        android:id="@+id/patch_version_text"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_margin="15dp"
+        android:textColor="#333"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/open_btn_one"
+        android:layout_centerVertical="true"
+        android:text="新增的页面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
